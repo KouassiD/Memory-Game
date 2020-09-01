@@ -87,6 +87,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.img {
+  width: 100%;
+  height: auto;
+  margin: 2px;
+  min-width: 20vh;
+  max-width: 200px;
+}
+
+/* .zoom {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+} */
+
+/* .zoom:hover,
+.zoom:active,
+.zoom:focus {
+  -ms-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+  position: relative;
+  z-index: 100;
+} */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -180,9 +209,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -193,6 +222,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -209,11 +239,11 @@ textarea {
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
 
   /*
@@ -260,4 +290,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
