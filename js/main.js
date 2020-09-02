@@ -1,6 +1,12 @@
 // try with table
 
-const heros = [
+const imgCard = [
+  "img/palpatineCard.png",
+  "img/luckeCard.png",
+  "img/maulCard.png",
+  "img/yodaCard.png",
+  "img/vadorCard.png",
+  "img/obiCard.png",
   "img/palpatineCard.png",
   "img/luckeCard.png",
   "img/maulCard.png",
@@ -8,21 +14,46 @@ const heros = [
   "img/vadorCard.png",
   "img/obiCard.png"
 ]
-console.log(heros)
+
+for (let c = 0; c < imgCard.length; c++) {
+  const element = imgCard[c];
+
+}
+
+console.log(imgCard)
 
 let imgs = document.getElementsByClassName("img");
+
 for (const img of imgs) {
   console.log(img)
   img.addEventListener('click', function () {
 
-    console.log(heros[1])
-    if (img) {
-      this.src = heros[1]
+    const deck = imgCard[Math.floor(Math.random() * (11)) + 1];
+    console.log(deck)
+    if (deck > 1) {
+      console.log(deck > imgCard[0])
+      this.src = imgCard[0]
+    } else if (deck === imgCard[1]) {
+      this.src = imgCard[1]
+    } else if (deck === imgCard[2]) {
+      this.src = "img/obiCard.png"
+    } else if (deck === imgCard[3]) {
+      this.src = imgCard[3]
+    } else {
+      this.src = imgCard[4]
     }
-
-
   })
 }
+
+
+
+
+
+
+
+
+
+
 
 // for (let i = 0; i < myImgs.length; i++) {
 //   const imgList = myImgs[i];
