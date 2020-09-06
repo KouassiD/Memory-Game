@@ -1,23 +1,23 @@
-# Lovelace Bank
+# Star Wars Memory Game
 
 
-![LovelaceBank](./img/header.png)
+![LovelaceBank](./img/Memory Game.jpg)
 
 ## Wiframe
 
 <details>
-<summary>index</summary>
+<summary>WireFrame & User Tree</summary>
 
-![LovelaceBank](./img/index.png)
+![LovelaceBank](./img/iPad – 1.png)
 <details>
 <summary>stats</summary>
 
-![LovelaceBank](./img/stats.png)
+![LovelaceBank](./img/iPhone X-XS-11 Pro – 1.png)
 </details>
 <details>
 <summary>blog</summary>
 
-![LovelaceBank](./img/blog.png)
+![LovelaceBank](./img/Web 1920 – 1.png)
 </details>
 </details>
 
@@ -25,41 +25,17 @@
 
 ## Features
 
-Currently LovelaceBank it's a learning project.
+Currently Memory-Game is an evalution project.
 
 ### Functional Specifications:
 <details>
 
 Functional Specifications:
-- On the home page, the user sees all their bank accounts by default
 
-- When he arrives on the home page, a layer is displayed over the entire page and reminds him of the
-essential safety rules on a website. Security rules are stored in a
-file and retrieved by HTTP request (AJAX).
-
-- On a statistics page, the user accesses banking information such as rates
-loan, the stock market price, etc. This information is retrieved from a file via
-HTTP request and presented in tabular form. This information is stored in a file
-in JSON format.
-
-- A blog page, which displays articles retrieved from the following API: https: // ocjswebsrv.
-herokuapp.com/api/articles
-
-/ Optional if lack of time /
-- On a dedicated page, a form allows him to create a new bank account with
-minimum one type of account (current, livretA, PEL etc ...) and a default amount greater than 50
-euros
-
-- For each account the user can click on a link which he subsequently wishes to delete
-the account
-
-- For each account, the user can, via a form, make a deposit of money
-
-- For each account, the user can, via a cash withdrawal form
-
-- On a dedicated page, using a form, the user can make a transfer from one account to
-another. He can therefore select an account A to be debited, indicate an amount and select the
-account B to be credited. He can only select his own accounts.
+- Display 12 cards face down on the screen 
+- When the player clicks on a card, it turns over 
+- When the player clicks on a second card if it is identical to the previous one, the two cards remain face up otherwise the cards are hidden again.
+- When all pairs are found and therefore all cards are face up the game is over
 </details>
 
 ### Technical specifications :
