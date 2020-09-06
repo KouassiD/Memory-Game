@@ -7,18 +7,21 @@
 
 <details>
 <summary>WireFrame & User Tree</summary>
-
-<img width="450px" src="doc/iPad – 1.png" align="center"/>
 <details>
-<summary>stats</summary>
+<summary>Phone</summary>
+<img width="450px" src="doc/iPad – 1.png" align="center"/>
+</details>
 
+<details>
+<summary>Tablette</summary>
 <img width="450px" src="doc/iPhone X-XS-11 Pro – 1.png" align="center"  />
 </details>
-<details>
-<summary>blog</summary>
 
-<img width="450px" src="doc/Web 1920 – 1.png" align="center"/>()
+<details>
+<summary>full screen</summary>
+<img width="450px" src="doc/Web 1920 – 1.png" align="center"/>
 </details>
+
 </details>
 
 **Please note that this project is still in active development. Some options may not work yet!**
