@@ -3,7 +3,7 @@
 
 <img width="450px" src="doc/Memory Game.jpg" align="center"/>
 
-## Wiframe
+## Wireframe
 
 <details>
 <summary>WireFrame & User Tree</summary>
