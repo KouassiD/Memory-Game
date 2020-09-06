@@ -22,6 +22,11 @@
 <img width="450px" src="doc/Web 1920 – 1.png" align="center"/>
 </details>
 
+<details>
+<summary>User Tree</summary>
+<img width="450px" src="doc/Web 1280 – 1.png" align="center"/>
+</details>
+
 </details>
 
 **Please note that this project is still in active development. Some options may not work yet!**
