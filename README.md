@@ -1,23 +1,23 @@
 # Star Wars Memory Game
 
 
-![Memory-Game](doc/Memory Game.jpg)
+<img width="450px" src="doc/Memory Game.jpg" align="center"/>
 
 ## Wiframe
 
 <details>
 <summary>WireFrame & User Tree</summary>
 
-![Memory-Game](doc/iPad – 1.png)
+<img width="450px" src="doc/iPad – 1.png" align="center"/>
 <details>
 <summary>stats</summary>
 
-![Memory-Game](doc/iPhone X-XS-11 Pro – 1.png)
+<img width="450px" src="doc/iPhone X-XS-11 Pro – 1.png" align="center"  />
 </details>
 <details>
 <summary>blog</summary>
 
-![Memory-Game](doc/Web 1920 – 1.png)
+<img width="450px" src="doc/Web 1920 – 1.png" align="center"/>()
 </details>
 </details>
 
