@@ -26,10 +26,13 @@ for (let i = 0; i < imgs.length; i++) {
   });
 };
 
-//We check if the player finds two pairs
+////We check if the player finds two pairs
 //-----------------NOT FONCTIONALE-----------
-//let step = 1;
-//let p1, p2;
+// let step = 1;
+// let p1, p2;
+// let timer = null;
+// let eltScore = document.getElementById("score");
+// let score = 0;
 // switch (step) {
 //   case 1:
 //     if (e.target.tagName == 'IMG') {
@@ -44,12 +47,27 @@ for (let i = 0; i < imgs.length; i++) {
 //       p2 = e.target.src2;
 //       step = 3;
 //     }
-//     case 3:
-//       if (p1 === p2) {
-//         console.log("same");
-//       } else {
-//         console.log("hop");
-//         click.src = "img/backCard.png";
-//       }
-//       break;
+//     timer = setTimeout(check, 1700);
+//     break;
+//   case 3:
+//     clearTiemout(timer);
+//     check();
+//     break;
+// };
+
+// function check() {
+//   if (p1.src2 === p2.scr2) {
+//     p1.src2 = e.target.src2;
+//     p2.src2 = e.target.src2;
+//     score += 50;
+//   } else {
+//     p2.src = "img/backCard.png";
+//     score = Math.max(0, score - 30);
+//   }
+//   step = 1;
+//   //End Game
+//   eltScore.textcontent = score;
+//   if (document.getElementsByTagName("img").length == 0) {
+//     eltScore.textcontent = "Gagné";
+//   };
 // };
